@@ -20,7 +20,7 @@ composer install
 ```
 Note : Folder vendor tidak di-commit ke Git, jadi harus install dependencies pakai Composer.
 
-### 3. Edit file .env sesuai konfigurasi database lokal kamu, terutama bagian database dari DB_USERNAME serta DB_PASSWORD
+### 3. Buat file .env sesuai konfigurasi database lokal kamu, terutama bagian database dari DB_USERNAME serta DB_PASSWORD
 
 ```.env
 DB_CONNECTION=mysql
@@ -30,11 +30,12 @@ DB_DATABASE=exam
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+Note : File .env dapat dibuat seperti file .env.example dengan penyesuai database pada bagian yang koneksi database.
 
 ### 4. Pastikan kamu sudah membuat database di MySQL sesuai nama di .env (misal exam):
 
 ```sql
-CREATE DATABASE exams;
+CREATE DATABASE exam;
 ```
 Note : Tetapi jika langsung melanjutkan step berikutnya tidak masalah karena akan terdapat pilihan untuk membuat database baru sesuai yang terdapat pada file .env, akan tetapi lebih baik dipastikan terlebih dahulu database yang sesuai pada file .env
 
