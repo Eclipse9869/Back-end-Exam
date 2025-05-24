@@ -2,7 +2,7 @@
 
 ## Cara Setup Project
 
-Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal komputer kamu.
+Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal komputer.
 
 ---
 
