@@ -26,12 +26,12 @@ Note : Folder vendor tidak di-commit ke Git, jadi harus install dependencies pak
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=exams
+DB_DATABASE=exam
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 4. Pastikan kamu sudah membuat database di MySQL sesuai nama di .env (misal exams):
+### 4. Pastikan kamu sudah membuat database di MySQL sesuai nama di .env (misal exam):
 
 ```sql
 CREATE DATABASE exams;
